@@ -10,8 +10,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
 
+// testing stuff
+
 namespace AirportExplorer
 {
+    public class Cotyjebe
+    {
+    }
+
     public class Startup
     {
         public Startup(IConfiguration configuration)
