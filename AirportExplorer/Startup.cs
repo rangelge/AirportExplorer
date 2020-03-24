@@ -9,14 +9,12 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Newtonsoft.Json;
-
-// testing stuff
+//
+// Hello make a conflict please
 
 namespace AirportExplorer
 {
-    public class Cotyjebe
-    {
-    }
+    public sealed class Cotyjebe { }
 
     public class Startup
     {
@@ -32,6 +30,8 @@ namespace AirportExplorer
         {
             services.AddRazorPages().AddNewtonsoftJson();
         }
+
+	public void Noop() { }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
