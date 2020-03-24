@@ -7,6 +7,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
+// Adding more stuff, are you happy now ?
+
 namespace AirportExplorer
 {
     public class Program
